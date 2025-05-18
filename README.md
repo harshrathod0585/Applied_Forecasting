@@ -1,16 +1,16 @@
-### ⛽ Time Series Forecasting of Monthly Oil Production
+## ⛽ Time Series Forecasting of Monthly Oil Production
 This project focuses on forecasting monthly oil production using both classical statistical models and advanced deep learning techniques. By analyzing historical data, it aims to capture underlying patterns, seasonality, and trends to deliver accurate long-term forecasts.
 
-### 📊 Project Overview
+## 📊 Project Overview
 Using real-world monthly oil production data, this project applies a combination of traditional time series models and modern neural network architectures. The goal is to compare performance, understand the strengths of each approach, and demonstrate the benefits of integrating statistical and deep learning models for effective forecasting.
 
-### 🛠 Tech Stack
+## 🛠 Tech Stack
 
 Programming Language: Python
 
 Libraries: Pandas, Matplotlib, Statsmodels, Scikit-learn, TensorFlow/Keras
 
-### Models Implemented:
+## Models Implemented:
 
 📈 AR (Auto Regressive)
 
@@ -28,7 +28,7 @@ Libraries: Pandas, Matplotlib, Statsmodels, Scikit-learn, TensorFlow/Keras
 
 🧠 GRU (Gated Recurrent Unit)
 
-### 🔍 Features & Techniques
+## 🔍 Features & Techniques
 
 Time series decomposition: trend, seasonality, and noise extraction
 
@@ -42,7 +42,7 @@ Model selection using AIC (Akaike Information Criterion)
 
 Long-term forecasting with deep learning architectures
 
-### 📈 Results Summary
+## 📈 Results Summary
 🔢 MAPE (Mean Absolute Percentage Error)
 | Model   | Type          | MAPE (%) |
 |---------|---------------|----------|
@@ -58,19 +58,19 @@ AIC (Akaike Information Criterion) Comparison
 | ARIMA   | Statistical  | 20.42%  |
 | SARIMA  | Statistical  | 5.03%   |
 
-### Key Insights:
+## Key Insights:
 
 LSTM achieved the best forecasting accuracy with the lowest MAPE.
 
 SARIMA demonstrated the best fit among classical models with the lowest AIC.
 
-### 📂 Project Structure
+## 📂 Project Structure
 ├── Applied_forecasting_Code.ipynb    # Main Jupyter notebook with full code and analysis  
 ├── monthly-oil-production (1).csv      # Folder containing the input CSV data (monthly oil production)  
 ├── Applied_forecasting_Report.pdf      # Folder with visualizations, plots, and exported results  
 └── README.md                          # Project documentation  
 
-### ⚠️ Disclaimer
+## ⚠️ Disclaimer
 Results are subject to variation due to the stochastic nature of model training and parameter tuning. Running the notebook multiple times may yield slightly different MAPE values, especially for deep learning models.
 
 ✅ If your model performs better — congratulations!
